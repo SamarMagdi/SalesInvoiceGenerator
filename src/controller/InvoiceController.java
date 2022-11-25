@@ -303,7 +303,7 @@ public class InvoiceController implements ActionListener {
 					homePage.textField_3.setText(
 							homePage.daDefaultTableModel.getValueAt(homePage.table.getSelectedRow(), 3).toString());
 					// delete invoice item from object
-					tempInvoices.remove(homePage.table_1.getSelectedRow());
+					// tempInvoices.remove(homePage.table_1.getSelectedRow());
 					// delete row from invoice line table
 					homePage.daDefaultTableModel1.removeRow(homePage.table_1.getSelectedRow());
 				}
