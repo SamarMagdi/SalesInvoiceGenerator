@@ -143,7 +143,7 @@ public class HomePage extends JFrame {
 		contentPane.add(btnNewButton_2);
 
 		// cancel button
-		JButton btnNewButton_3 = new JButton("Delete Item");
+		JButton btnNewButton_3 = new JButton("Cancel");
 		btnNewButton_3.setBounds(830, 506, 100, 23);
 		btnNewButton_3.setActionCommand("cancel");
 		btnNewButton_3.addActionListener(controller);
